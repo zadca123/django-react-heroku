@@ -18,3 +18,4 @@ django-heroku
 gunicorn
 psycopg2
 psycopg2-binary
+py-mysql2pgsql
