@@ -102,9 +102,9 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'USER': 'root',
         'PASSWORD': '',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        }
+        # 'OPTIONS': {
+        #     'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        # }
     }
 }
 
