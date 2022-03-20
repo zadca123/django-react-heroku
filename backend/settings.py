@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-teb=v8-87t4htex9&&dibor$uctne=c+ro71s+c)qet8)^&%0x
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", "proocoode.herokuapp.com", "procode1337.azurewebsites.net"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", "proocoode.herokuapp.com", "procode1337v2.azurewebsites.net"]
 
 ##################### DEV ONLY
 CORS_ALLOW_ALL_ORIGINS = True
