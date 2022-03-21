@@ -100,9 +100,11 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'procode',
         # 'HOST': '127.0.0.1',
-        'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': '',
+        'HOST': '8a8d033a35ac',
+        # 'USER': 'root',
+        # 'PASSWORD': '',
+        'USER': 'admin123',
+        'PASSWORD': 'Polska123',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
         }
