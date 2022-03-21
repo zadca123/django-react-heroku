@@ -100,7 +100,7 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'procode',
         # 'HOST': '127.0.0.1',
-        'HOST': '8a8d033a35ac',
+        'HOST': 'procode1337v2.database.windows.net',
         # 'USER': 'root',
         # 'PASSWORD': '',
         'USER': 'admin123',
