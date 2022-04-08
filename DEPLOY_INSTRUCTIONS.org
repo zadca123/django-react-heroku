@@ -4,3 +4,7 @@ sudo -u postgres -i
 createdb procode
 pgloader mysql://username:password@localhost/procode postgresql:///procode
 pgloader mysql://root:@localhost/procode postgresql:///procode
+
+install!!!
+: postgresql
+: libpg-dev -- im not sure if its esential if you prefer binary pip package?
