@@ -118,11 +118,13 @@ DATABASES = {
     # }
     # heroku
     "default": {
-        "ENGINE": "django.db.backends.mysql",
-        # 'ENGINE': 'django.db.backends.postgresql',
+        # "ENGINE": "django.db.backends.mysql",
+        "ENGINE": "django.db.backends.postgresql",
         "NAME": "d36ajpv0nksiaq",
         "HOST": "ec2-52-211-158-144.eu-west-1.compute.amazonaws.com",
         "USER": "egzfoebkgklssx",
+        "PORT": "5432",
+        # "PORT": "3306",
         "PASSWORD": "917ecc38a66e2264d4e681bbdcc603f624b25d8460e702ee65b481a074bc27b8",
         "OPTIONS": {"init_command": "SET sql_mode='STRICT_TRANS_TABLES'"},
     }
