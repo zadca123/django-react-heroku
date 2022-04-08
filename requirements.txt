@@ -14,8 +14,7 @@ sqlparse==0.4.2
 tzdata==2021.5
 urllib3==1.26.9
 yarg==0.1.9
-# django-heroku
-# gunicorn
-# psycopg2
-# psycopg2-binary
-# # py-mysql2pgsql
+django-heroku
+gunicorn
+psycopg2
+psycopg2-binary
